@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>두번째 페이지</title>
+    <title>상담 문의</title>
 </head>
 <body>
-    여기는 두번째 페이지 입니다.
+
+   <h1> 멀티미디어과 선배에게 문의하기 </h1>
+   <p>수업, 과제, 진로, 동아리 등 궁금한 내용을 남겨보세요.</p>
+
+   <form action="#" method="get">
+
+       <div>
+          <lavel for="username">이름</lavel>
+          <input type="text" placeholder="이름을 입력하세요." name="username">
+       </div>
+
+       <div>
+        <lavel for="student-id">학번</lavel>
+        <input type="text" placeholder="예:20253149" name="student-id">
+       </div>
+
+       <div>
+         <label>학년</label>
+         <select name="grade">
+            <option value="">선택하세요</option>
+             <option value="1">1학년</option>
+            <option value="2">2학년</option>
+            <option value="3">3학년</option>
+         </select>
+       </div>
+
+       <div>
+        <label for="email">연락처(이메일)</label>
+        <input type="email"placeholder="예:example@email.com" name="email">
+       </div>
+
+       <div>
+        <label for="Phone">연락처(전화번호)</label>
+        <input type="tel" placeholder="예:010-2345-6789" name="Phone">
+       </div>
+
+       <div>
+        <label for="category">문의 분야</label>
+        <select name="category">
+            <option value="">선택하세요.</option>
+            <option value="class">수업</option>
+            <option value="assignment">과제</option>
+            <option value="portfolio">포트폴리오</option>
+            <option value="career">진로</option>
+            <option value="club">동아리</option>
+        </select>
+       </div>
+
+       <div>
+        <label>답변 받고 싶은 방법</label>
+        <br>
+        <label><input type="radio" name="reply" value="kakao">카카오톡</label>
+        <label><input type="radio" name="reply" value="email">이메일</label>
+        <label><input type="radio" name="reply" value="offline">직접 만나서</label>
+       </div>
+
+       <div>
+        <label for="title">문의 제목</label>
+        <input type="text" name="title" placeholder="예: 포트폴리오 준비 방법이 궁금해요.">
+       </div>
+
+       <div>
+        <label for="content">문의 내용</label>
+        <textarea name="content" placeholder="궁금한 내용을 자세히 작성하세요." rows="6"></textarea>
+       </div>
+
+       <div>
+        <label for="file">첨부 파일</label>
+        <input type="file" name="file">
+       </div>
+
+       <div>
+        <label>
+            <input type="checkbox" name="agree">
+            개인정보 수집 및 이용에 동의합니다.
+        </label>
+       </div>
+
+       <div>
+        <input type="submit" value="문의 보내기">
+        <input type="reset" value="다시 쓰기">
+       </div>
+
+</form>
+
 </body>
 </html>
