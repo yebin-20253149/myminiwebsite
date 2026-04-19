@@ -1,15 +1,46 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
 nav {
     background-color: #333;
+ }
+
+
+ nav ul {
+      list-style:none;  
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 0;
+ }
+
+ nav ul li {
+    display: inline;
+    margin: 15px;
+ }
+
+ nav a {
+    text-decoration: none;
+ }
+
+ nav a:hover {
+    text-decoration: unde;
  }
 
 header {
     background-color: olive;
     text-align: center;
     padding:10px;
+    padding-bottom: 30px;
 }
 
 section {
     background-color: rgb(232, 243, 208);
+    padding: 20px;
 }
 
 footer {background-color: #333;
@@ -20,6 +51,10 @@ footer {background-color: #333;
 
 article {
     background-color: rgb(250, 247, 244);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,);
 }
 
 a {
